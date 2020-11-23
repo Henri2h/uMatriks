@@ -13,8 +13,8 @@ SOURCES += push.cpp pushclient.cpp pushhelper.cpp
 OTHER += apparmor-push.json push-helper.json
 
 other.files += $$OTHER
-other.path = /
 
-target.path = /
+other.path = /pushhelper
+target.path = /pushhelper
 
 INSTALLS += target other
