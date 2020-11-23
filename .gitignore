@@ -42,6 +42,7 @@ CMakeLists.txt.user*
 
 # Clickable
 build/*
+pushhelper/build/*
 
 # python
 __pycache__/
