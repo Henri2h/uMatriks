@@ -7,7 +7,7 @@ TEMPLATE = subdirs
 load(ubuntu-click)
 
 SUBDIRS += uMatriks \
-           lib/Matrix
+           lib/Matrix \
            pushhelper
 
 # specify the manifest file, this file is required for click
