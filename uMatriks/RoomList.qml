@@ -1,10 +1,27 @@
+/*
+This file is part of uMatriks.
+
+uMatriks is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+uMatriks is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with uMatriks.  If not, see <https://www.gnu.org/licenses/>.
+*/
+
 import QtQuick 2.4
 import Ubuntu.Components 1.3
 import Ubuntu.Components.Themes 1.3
 import Matrix 1.0
 import 'utils.js' as Utils
 import Ubuntu.Components.Popups 1.3
-
+import "components"
 
 BasePage {
     id: roomList
@@ -89,6 +106,7 @@ BasePage {
                     title.text: display
                     title.font.bold: unread
                     title.color: uMatriks.theme.palette.normal.backgroundText
+                    summary.text: lastEvent
 
                     Rectangle {
                         SlotsLayout.position: SlotsLayout.Leading
@@ -96,35 +114,31 @@ BasePage {
                         width: height
                         color: uMatriks.theme.palette.normal.background
 
-                        Image {
+                        Avatar {
                             id: roomAvatar
                             anchors.fill: parent
                             source: roomImg
-                            sourceSize.width: 16
-                            sourceSize.height: 16
+                            user: display
                         }
                     }
 
-                    // Rectangle {
-                    //     SlotsLayout.position: SlotsLayout.Trailing
-                    //     //                        color: "grey"
-                    //     height: units.gu(3)
-                    //     width: height
-                    //     border.width: parent.activeFocus ? 0.5 : 1
-                    //     border.color: "black"
-                    //     color: UbuntuColors.green
-                    //     visible: helpId.unread && helpId.number > 0
-                    //     radius: width * 0.5
-                    //     Text {
-                    //         anchors{
-                    //             horizontalCenter: parent.horizontalCenter
-                    //             verticalCenter: parent.verticalCenter
-                    //         }
-                    //         font.pointSize: helpId.number < 100 ? units.gu(1.5) : units.gu(1.1)
-                    //         text: helpId.number
-                    //     }
-                    //
-                    // }
+                     Rectangle {
+                         SlotsLayout.position: SlotsLayout.Trailing
+                         color: "grey"
+                         height: units.gu(2.3)
+                         width: height
+                         visible: unread && unreadCount > 0
+                         radius: width * 0.5
+                         Text {
+                             anchors{
+                                 horizontalCenter: parent.horizontalCenter
+                                 verticalCenter: parent.verticalCenter
+                             }
+                             font.pointSize: unreadCount < 100 ? units.gu(1) : units.gu(0.7)
+                             text: unreadCount
+                             color: "white"
+                         }
+                    }
                 }
 
                 leadingActions: ListItemActions {

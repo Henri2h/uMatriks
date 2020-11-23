@@ -1,3 +1,20 @@
+/*
+This file is part of uMatriks.
+
+uMatriks is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+uMatriks is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with uMatriks.  If not, see <https://www.gnu.org/licenses/>.
+*/
+
 import QtQuick 2.4
 import Ubuntu.Components 1.3
 import QtGraphicalEffects 1.0
@@ -7,7 +24,6 @@ import '../utils.js' as Utils
 
 Item {
     id: chatBubble
-
     height: Math.max(units.gu(6), rect.height)
 
     property var room: null
@@ -49,62 +65,64 @@ Item {
     Rectangle {
         id: avatarIcon
         height: units.gu(6)
-        anchors.top: chatBubble.top
+        anchors {
+          top: chatBubble.top
+          leftMargin: units.gu(0.5)
+          rightMargin: units.gu(0.5)
+        }
         width: height
-        radius: height/2
-        anchors.margins: units.gu(0.5)
+        radius: 10
         clip: true
-        border.color: uMatriks.theme.palette.normal.overlayText
-        color: uMatriks.theme.palette.normal.background
 
-        Image {
+        Avatar {
             id: avatarImg
             anchors.fill: parent
-            visible: false
-            sourceSize.width: 16
-            sourceSize.height: 16
+            user: authorlabel.text
+            source: "image://mtx/" + author.avatarMediaId
         }
 
         OpacityMask {
             id: avatarMask
             anchors.fill: avatarImg
             source: avatarImg
-            visible: false
             maskSource: Rectangle {
                 width: avatarImg.width
                 height: avatarImg.height
-                radius: height/2
+                radius: 10
                 visible: false
             }
-        }
-
-        Text {
-            id: avatarText
-            visible: false
-            anchors{
-                horizontalCenter: parent.horizontalCenter
-                verticalCenter: parent.verticalCenter
-            }
-            font.bold: true
-            font.pointSize: units.gu(2)
-            text: authorlabel.text[0]+authorlabel.text[1]
-            color: uMatriks.theme.palette.normal.backgroundText
-
         }
     }
 
     Rectangle {
         id: rect
-        anchors.top: chatBubble.top
         height: height
-        anchors.margins: {
-            right: units.gu(1)
-            left: units.gu(1)
+        anchors {
+          top: chatBubble.top
+          leftMargin: units.gu(1)
+          rightMargin: units.gu(1)
         }
         border.color: uMatriks.theme.palette.normal.raisedSecondaryText
         border.width: 1
-        radius: 8
+        radius: 2
         color: uMatriks.theme.palette.normal.background
+
+
+        Text {
+            id: authorlabel
+            elide: Text.ElideRight
+            text: author.displayName
+            color: uMatriks.theme.palette.normal.backgroundText
+            font.pointSize: units.gu(1.3)
+            font.bold: true
+            anchors.left: parent.left
+            anchors.top: parent.top
+            anchors.margins: {
+                top: units.gu(1)
+                left: units.gu(1)
+                bottom: units.gu(1)
+            }
+        }
 
         Text {
             id: contentlabel
@@ -112,10 +130,10 @@ Item {
                       "* " + author.displayName + " " + display :
                   eventType != "other" ? display : "***"
             wrapMode: Text.Wrap
-            font.pointSize: units.gu(1.5)
+            font.pointSize: units.gu(1.3)
             font.italic: eventType == ["other", "emote", "state"].indexOf(eventType) >= 0 ? true : false
             anchors.left: parent.left
-            anchors.top: parent.top
+            anchors.top: authorlabel.bottom
             anchors.margins: {
                 top: units.gu(1)
                 left: units.gu(1)
@@ -140,6 +158,7 @@ Item {
             fillMode: Image.PreserveAspectFit
             height: units.gu(20)
             width: height
+            sourceSize: "1000x1000"
         }
 
         AnimatedImage {
@@ -180,10 +199,10 @@ Item {
 
         Row {
             id: innerRect
-            anchors.left: parent.left
+            anchors.right: parent.right
             anchors.bottom: parent.bottom
             anchors.margins: {
-                top: units.gu(1)
+                top: units.gu(1.5)
                 left: units.gu(1)
                 bottom: units.gu(1)
             }
@@ -194,29 +213,13 @@ Item {
                 color: uMatriks.theme.palette.normal.backgroundTertiaryText
                 font.pointSize: units.gu(0.9)
             }
-            Text {
-                id: dashlabel
-                text: " - "
-                color: uMatriks.theme.palette.normal.backgroundTertiaryText
-                font.pointSize: units.gu(0.9)
-            }
-            Text {
-                id: authorlabel
-                horizontalAlignment: if( ["other", "emote", "state"].indexOf(eventType) >= 0 ) { Text.AlignRight }
-                elide: Text.ElideRight
-                text: eventType == "state" || eventType == "emote" ?
-                          "* " + author.displayName :
-                      eventType != "other" ? author.displayName : "***"
-                color: uMatriks.theme.palette.normal.backgroundTertiaryText
-                font.pointSize: units.gu(0.9)
-            }
         }
 
         Component.onCompleted: {
             if (["notice", "emote", "message", "file"].indexOf(eventType) >= 0){
                 contentlabel.width = Math.min(contentlabel.contentWidth, chatBubble.width - avatarIcon.width - 40 - 30)
                 contentlabel.height = contentlabel.contentHeight
-                width = Math.max(contentlabel.width, innerRect.width) + 30
+                width = Math.max(Math.max(contentlabel.width, innerRect.width), authorlabel.width) + 30
                 rect.height = Math.max(contentlabel.height + innerRect.height + 40, avatarIcon.height)
                 if (eventType == "file") {
                     downloadButton.anchors.top = contentlabel.bottom
@@ -239,16 +242,6 @@ Item {
     }
 
     Component.onCompleted: {
-        if (author.avatarMediaId) {
-            avatarImg.source = "image://mtx/" + author.avatarMediaId
-            console.log("avatar Url: " + avatarImg.source)
-            avatarMask.visible = true
-        } else {
-            avatarImg.visible = false
-            avatarMask.visible = false
-            avatarText.visible = true
-        }
-
         if (author && author.id === connection.localUserId) {
             avatarIcon.anchors.right = chatBubble.right
             rect.anchors.right = avatarIcon.left
@@ -256,7 +249,6 @@ Item {
             contentlabel.color = "white"
             timelabel.color = UbuntuColors.lightGrey
             authorlabel.color = UbuntuColors.lightGrey
-            dashlabel.color = UbuntuColors.lightGrey
         } else {
             avatarIcon.anchors.left = chatBubble.left
             rect.anchors.left = avatarIcon.right
@@ -268,20 +260,5 @@ Item {
             contentImage.visible = true;
             contentlabel.visible = false;
         }
-        if (["other", "state"].indexOf(eventType) >= 0 ){
-            innerRect.visible = false
-            avatarIcon.visible = false
-            rect.color = uMatriks.theme.palette.normal.background
-            rect.border.width = 0
-            contentlabel.color = uMatriks.theme.palette.normal.backgroundTertiaryText
-            contentlabel.font.pointSize = units.gu(0.9)
-            contentlabel.width = contentlabel.contentWidth
-            contentlabel.height = contentlabel.contentHeight
-            rect.height = contentlabel.contentHeight
-            rect.width = contentlabel.width;
-            rect.anchors.horizontalCenter = horizontalCenter
-            height = rect.height + 20
-        }
     }
 }
-
