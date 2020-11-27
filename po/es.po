@@ -2,170 +2,196 @@ msgid ""
 msgstr ""
 "Project-Id-Version: uMatriks\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-06-13 23:16+0200\n"
+"POT-Creation-Date: 2020-11-27 14:05+0000\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: POEditor.com\n"
 
-#: /opt/develop/privat/mobile/ubports/uMatriks/uMatriks/About.qml:21
-#: /opt/develop/privat/mobile/ubports/uMatriks/build/tmp/uMatriks/About.qml:21
+#: /home/henri2h/Desktop/uMatriks/uMatriks/About.qml:38
+#: /home/henri2h/Desktop/uMatriks/uMatriks/Settings.qml:38
+#: /home/henri2h/Desktop/uMatriks/build/x86_64-linux-gnu/app/install/uMatriks/About.qml:38
 msgid "About..."
 msgstr "Acerca de..."
 
-#: /opt/develop/privat/mobile/ubports/uMatriks/uMatriks/About.qml:28
-#: /opt/develop/privat/mobile/ubports/uMatriks/build/tmp/uMatriks/About.qml:28
+#: /home/henri2h/Desktop/uMatriks/uMatriks/About.qml:45
+#: /home/henri2h/Desktop/uMatriks/uMatriks/Settings.qml:45
+#: /home/henri2h/Desktop/uMatriks/build/x86_64-linux-gnu/app/install/uMatriks/About.qml:45
 msgid "Back"
 msgstr "Atrás"
 
-#: /opt/develop/privat/mobile/ubports/uMatriks/uMatriks/About.qml:83
-#: /opt/develop/privat/mobile/ubports/uMatriks/build/tmp/uMatriks/About.qml:83
+#: /home/henri2h/Desktop/uMatriks/uMatriks/About.qml:99
+#: /home/henri2h/Desktop/uMatriks/build/x86_64-linux-gnu/app/install/uMatriks/About.qml:99
 msgid "Authors"
 msgstr ""
 
-#: /opt/develop/privat/mobile/ubports/uMatriks/uMatriks/About.qml:148
-#: /opt/develop/privat/mobile/ubports/uMatriks/build/tmp/uMatriks/About.qml:148
+#: /home/henri2h/Desktop/uMatriks/uMatriks/About.qml:171
+#: /home/henri2h/Desktop/uMatriks/build/x86_64-linux-gnu/app/install/uMatriks/About.qml:171
 msgid "Translations"
 msgstr ""
 
-#: /opt/develop/privat/mobile/ubports/uMatriks/uMatriks/About.qml:158
-#: /opt/develop/privat/mobile/ubports/uMatriks/build/tmp/uMatriks/About.qml:158
+#: /home/henri2h/Desktop/uMatriks/uMatriks/About.qml:182
+#: /home/henri2h/Desktop/uMatriks/build/x86_64-linux-gnu/app/install/uMatriks/About.qml:182
 msgid ""
 "Not in your language? Please help us translating the app by contributing on: "
 "<a href='https://poeditor.com/join/project/4VSWHLQChQ'>poeditor</a> "
 msgstr ""
 
-#: /opt/develop/privat/mobile/ubports/uMatriks/uMatriks/About.qml:167
-#: /opt/develop/privat/mobile/ubports/uMatriks/build/tmp/uMatriks/About.qml:167
+#: /home/henri2h/Desktop/uMatriks/uMatriks/About.qml:192
+#: /home/henri2h/Desktop/uMatriks/build/x86_64-linux-gnu/app/install/uMatriks/About.qml:192
 msgid "Acknowledgement"
 msgstr ""
 
-#: /opt/develop/privat/mobile/ubports/uMatriks/uMatriks/BasePage.qml:19
-#: /opt/develop/privat/mobile/ubports/uMatriks/build/tmp/uMatriks/BasePage.qml:19
+#: /home/henri2h/Desktop/uMatriks/uMatriks/BasePage.qml:35
+#: /home/henri2h/Desktop/uMatriks/build/x86_64-linux-gnu/app/install/uMatriks/BasePage.qml:35
 msgid "[ uMatriks ]"
 msgstr "[ uMatriks ]"
 
-#: /opt/develop/privat/mobile/ubports/uMatriks/uMatriks/BasePage.qml:25
-#: /opt/develop/privat/mobile/ubports/uMatriks/uMatriks/DialogJoinRoom.qml:9
-#: /opt/develop/privat/mobile/ubports/uMatriks/build/tmp/uMatriks/BasePage.qml:25
-#: /opt/develop/privat/mobile/ubports/uMatriks/build/tmp/uMatriks/DialogJoinRoom.qml:9
+#: /home/henri2h/Desktop/uMatriks/uMatriks/BasePage.qml:41
+#: /home/henri2h/Desktop/uMatriks/uMatriks/DialogJoinRoom.qml:26
+#: /home/henri2h/Desktop/uMatriks/build/x86_64-linux-gnu/app/install/uMatriks/BasePage.qml:41
+#: /home/henri2h/Desktop/uMatriks/build/x86_64-linux-gnu/app/install/uMatriks/DialogJoinRoom.qml:26
 msgid "Join room"
 msgstr "Entrar en habitación"
 
-#: /opt/develop/privat/mobile/ubports/uMatriks/uMatriks/BasePage.qml:38
-#: /opt/develop/privat/mobile/ubports/uMatriks/build/tmp/uMatriks/BasePage.qml:38
+#: /home/henri2h/Desktop/uMatriks/uMatriks/BasePage.qml:54
+#: /home/henri2h/Desktop/uMatriks/build/x86_64-linux-gnu/app/install/uMatriks/BasePage.qml:54
 msgid "Log out"
 msgstr "Salir"
 
-#: /opt/develop/privat/mobile/ubports/uMatriks/uMatriks/BasePage.qml:48
-#: /opt/develop/privat/mobile/ubports/uMatriks/build/tmp/uMatriks/BasePage.qml:48
+#: /home/henri2h/Desktop/uMatriks/uMatriks/BasePage.qml:63
+#: /home/henri2h/Desktop/uMatriks/build/x86_64-linux-gnu/app/install/uMatriks/BasePage.qml:63
 msgid "About"
 msgstr "Acerca de"
 
-#: /opt/develop/privat/mobile/ubports/uMatriks/uMatriks/DialogJoinRoom.qml:10
-#: /opt/develop/privat/mobile/ubports/uMatriks/build/tmp/uMatriks/DialogJoinRoom.qml:10
-msgid "Join room:"
-msgstr "Entrar en habitación:"
-
-#: /opt/develop/privat/mobile/ubports/uMatriks/uMatriks/DialogJoinRoom.qml:36
-#: /opt/develop/privat/mobile/ubports/uMatriks/uMatriks/components/DialogDownload.qml:25
-#: /opt/develop/privat/mobile/ubports/uMatriks/build/tmp/uMatriks/DialogJoinRoom.qml:36
-#: /opt/develop/privat/mobile/ubports/uMatriks/build/tmp/uMatriks/components/DialogDownload.qml:25
-msgid "Cancel"
-msgstr "Cancelar"
-
-#: /opt/develop/privat/mobile/ubports/uMatriks/uMatriks/DialogJoinRoom.qml:44
-#: /opt/develop/privat/mobile/ubports/uMatriks/build/tmp/uMatriks/DialogJoinRoom.qml:44
-msgid "Join"
-msgstr "Entrar"
-
-#: /opt/develop/privat/mobile/ubports/uMatriks/uMatriks/Login.qml:12
-#: /opt/develop/privat/mobile/ubports/uMatriks/uMatriks/Login.qml:41
-#: /opt/develop/privat/mobile/ubports/uMatriks/build/tmp/uMatriks/Login.qml:12
-#: /opt/develop/privat/mobile/ubports/uMatriks/build/tmp/uMatriks/Login.qml:41
-msgid "Login..."
-msgstr "Acceder..."
-
-#: /opt/develop/privat/mobile/ubports/uMatriks/uMatriks/Login.qml:56
-#: /opt/develop/privat/mobile/ubports/uMatriks/build/tmp/uMatriks/Login.qml:56
-msgid "Wrong username or password, please try again"
-msgstr "Usuario o contraseña errónea, vuelva a intentarlo"
-
-#: /opt/develop/privat/mobile/ubports/uMatriks/uMatriks/Login.qml:111
-#: /opt/develop/privat/mobile/ubports/uMatriks/build/tmp/uMatriks/Login.qml:111
-msgid "Failed to login, please try again"
-msgstr "Error al iniciar sesión, vuelva a intentarlo"
-
-#: /opt/develop/privat/mobile/ubports/uMatriks/uMatriks/Login.qml:116
-#: /opt/develop/privat/mobile/ubports/uMatriks/build/tmp/uMatriks/Login.qml:116
-msgid "User Name or Matrix ID:"
-msgstr "Nombre de usuario o Matrix ID:"
-
-#: /opt/develop/privat/mobile/ubports/uMatriks/uMatriks/Login.qml:128
-#: /opt/develop/privat/mobile/ubports/uMatriks/build/tmp/uMatriks/Login.qml:128
-msgid "Password:"
-msgstr "Contraseña:"
-
-#: /opt/develop/privat/mobile/ubports/uMatriks/uMatriks/Login.qml:140
-#: /opt/develop/privat/mobile/ubports/uMatriks/build/tmp/uMatriks/Login.qml:140
-msgid "Home server URL:"
-msgstr ""
-
-#: /opt/develop/privat/mobile/ubports/uMatriks/uMatriks/Login.qml:153
-#: /opt/develop/privat/mobile/ubports/uMatriks/build/tmp/uMatriks/Login.qml:153
-msgid "Login"
-msgstr "Acceder"
-
-#: /opt/develop/privat/mobile/ubports/uMatriks/uMatriks/Main.qml:160
-#: /opt/develop/privat/mobile/ubports/uMatriks/build/tmp/uMatriks/Main.qml:160
-msgid "Warning!"
-msgstr "¡Advertencia!"
-
-#: /opt/develop/privat/mobile/ubports/uMatriks/uMatriks/Main.qml:171
-#: /opt/develop/privat/mobile/ubports/uMatriks/uMatriks/RoomList.qml:207
-#: /opt/develop/privat/mobile/ubports/uMatriks/build/tmp/uMatriks/Main.qml:171
-#: /opt/develop/privat/mobile/ubports/uMatriks/build/tmp/uMatriks/RoomList.qml:207
-msgid "Close"
-msgstr "Cerrar"
-
-#: /opt/develop/privat/mobile/ubports/uMatriks/uMatriks/MemberList.qml:50
-#: /opt/develop/privat/mobile/ubports/uMatriks/build/tmp/uMatriks/MemberList.qml:50
+#: /home/henri2h/Desktop/uMatriks/uMatriks/ConversationSettings.qml:78
+#: /home/henri2h/Desktop/uMatriks/uMatriks/MemberList.qml:78
+#: /home/henri2h/Desktop/uMatriks/build/x86_64-linux-gnu/app/install/uMatriks/MemberList.qml:78
 msgid "Failed to add direct chat with "
 msgstr "Error al añadir chat directo con "
 
-#: /opt/develop/privat/mobile/ubports/uMatriks/uMatriks/MemberList.qml:52
-#: /opt/develop/privat/mobile/ubports/uMatriks/build/tmp/uMatriks/MemberList.qml:52
+#: /home/henri2h/Desktop/uMatriks/uMatriks/ConversationSettings.qml:80
+#: /home/henri2h/Desktop/uMatriks/uMatriks/MemberList.qml:80
+#: /home/henri2h/Desktop/uMatriks/build/x86_64-linux-gnu/app/install/uMatriks/MemberList.qml:80
 msgid " because this is not implented yet. This was just a test button."
 msgstr "␣ya que todavía no se ha implementado. Botón solo de prueba."
 
-#: /opt/develop/privat/mobile/ubports/uMatriks/uMatriks/RoomList.qml:11
-#: /opt/develop/privat/mobile/ubports/uMatriks/build/tmp/uMatriks/RoomList.qml:11
+#: /home/henri2h/Desktop/uMatriks/uMatriks/DialogJoinRoom.qml:27
+#: /home/henri2h/Desktop/uMatriks/build/x86_64-linux-gnu/app/install/uMatriks/DialogJoinRoom.qml:27
+msgid "Join room:"
+msgstr "Entrar en habitación:"
+
+#: /home/henri2h/Desktop/uMatriks/uMatriks/DialogJoinRoom.qml:54
+#: /home/henri2h/Desktop/uMatriks/uMatriks/components/DialogDownload.qml:41
+#: /home/henri2h/Desktop/uMatriks/build/x86_64-linux-gnu/app/install/uMatriks/DialogJoinRoom.qml:54
+#: /home/henri2h/Desktop/uMatriks/build/x86_64-linux-gnu/app/install/uMatriks/components/DialogDownload.qml:41
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: /home/henri2h/Desktop/uMatriks/uMatriks/DialogJoinRoom.qml:63
+#: /home/henri2h/Desktop/uMatriks/build/x86_64-linux-gnu/app/install/uMatriks/DialogJoinRoom.qml:63
+msgid "Join"
+msgstr "Entrar"
+
+#: /home/henri2h/Desktop/uMatriks/uMatriks/Login.qml:29
+#: /home/henri2h/Desktop/uMatriks/uMatriks/Login.qml:58
+#: /home/henri2h/Desktop/uMatriks/build/x86_64-linux-gnu/app/install/uMatriks/Login.qml:29
+#: /home/henri2h/Desktop/uMatriks/build/x86_64-linux-gnu/app/install/uMatriks/Login.qml:58
+msgid "Login..."
+msgstr "Acceder..."
+
+#: /home/henri2h/Desktop/uMatriks/uMatriks/Login.qml:73
+#: /home/henri2h/Desktop/uMatriks/build/x86_64-linux-gnu/app/install/uMatriks/Login.qml:73
+msgid "Wrong username or password, please try again"
+msgstr "Usuario o contraseña errónea, vuelva a intentarlo"
+
+#: /home/henri2h/Desktop/uMatriks/uMatriks/Login.qml:128
+#: /home/henri2h/Desktop/uMatriks/build/x86_64-linux-gnu/app/install/uMatriks/Login.qml:128
+msgid "Failed to login, please try again"
+msgstr "Error al iniciar sesión, vuelva a intentarlo"
+
+#: /home/henri2h/Desktop/uMatriks/uMatriks/Login.qml:133
+#: /home/henri2h/Desktop/uMatriks/build/x86_64-linux-gnu/app/install/uMatriks/Login.qml:133
+msgid "User Name or Matrix ID:"
+msgstr "Nombre de usuario o Matrix ID:"
+
+#: /home/henri2h/Desktop/uMatriks/uMatriks/Login.qml:145
+#: /home/henri2h/Desktop/uMatriks/build/x86_64-linux-gnu/app/install/uMatriks/Login.qml:145
+msgid "Password:"
+msgstr "Contraseña:"
+
+#: /home/henri2h/Desktop/uMatriks/uMatriks/Login.qml:157
+#: /home/henri2h/Desktop/uMatriks/build/x86_64-linux-gnu/app/install/uMatriks/Login.qml:157
+msgid "Home server URL:"
+msgstr ""
+
+#: /home/henri2h/Desktop/uMatriks/uMatriks/Login.qml:170
+#: /home/henri2h/Desktop/uMatriks/build/x86_64-linux-gnu/app/install/uMatriks/Login.qml:170
+msgid "Login"
+msgstr "Acceder"
+
+#: /home/henri2h/Desktop/uMatriks/uMatriks/Main.qml:195
+#: /home/henri2h/Desktop/uMatriks/build/x86_64-linux-gnu/app/install/uMatriks/Main.qml:195
+msgid "Warning!"
+msgstr "¡Advertencia!"
+
+#: /home/henri2h/Desktop/uMatriks/uMatriks/Main.qml:206
+#: /home/henri2h/Desktop/uMatriks/uMatriks/RoomList.qml:222
+#: /home/henri2h/Desktop/uMatriks/build/x86_64-linux-gnu/app/install/uMatriks/Main.qml:206
+#: /home/henri2h/Desktop/uMatriks/build/x86_64-linux-gnu/app/install/uMatriks/RoomList.qml:222
+msgid "Close"
+msgstr "Cerrar"
+
+#: /home/henri2h/Desktop/uMatriks/uMatriks/Main.qml:304
+#: /home/henri2h/Desktop/uMatriks/build/x86_64-linux-gnu/app/install/uMatriks/Main.qml:304
+msgid "Notifications"
+msgstr ""
+
+#: /home/henri2h/Desktop/uMatriks/uMatriks/Main.qml:305
+#: /home/henri2h/Desktop/uMatriks/build/x86_64-linux-gnu/app/install/uMatriks/Main.qml:305
+msgid ""
+"If you want Matrix notifications when you're not using the app, sign in to "
+"your Ubuntu One account."
+msgstr ""
+
+#: /home/henri2h/Desktop/uMatriks/uMatriks/Main.qml:312
+#: /home/henri2h/Desktop/uMatriks/build/x86_64-linux-gnu/app/install/uMatriks/Main.qml:312
+msgid "Sign in to Ubuntu One"
+msgstr ""
+
+#: /home/henri2h/Desktop/uMatriks/uMatriks/Main.qml:320
+#: /home/henri2h/Desktop/uMatriks/build/x86_64-linux-gnu/app/install/uMatriks/Main.qml:320
+msgid "Remind me later"
+msgstr ""
+
+#: /home/henri2h/Desktop/uMatriks/uMatriks/Main.qml:327
+#: /home/henri2h/Desktop/uMatriks/build/x86_64-linux-gnu/app/install/uMatriks/Main.qml:327
+msgid "Don't want notifications"
+msgstr ""
+
+#: /home/henri2h/Desktop/uMatriks/uMatriks/RoomList.qml:28
+#: /home/henri2h/Desktop/uMatriks/build/x86_64-linux-gnu/app/install/uMatriks/RoomList.qml:28
 msgid "RoomList"
 msgstr "ListaHabitaciones"
 
-#: /opt/develop/privat/mobile/ubports/uMatriks/uMatriks/RoomList.qml:133
-#: /opt/develop/privat/mobile/ubports/uMatriks/build/tmp/uMatriks/RoomList.qml:133
+#: /home/henri2h/Desktop/uMatriks/uMatriks/RoomList.qml:150
+#: /home/henri2h/Desktop/uMatriks/build/x86_64-linux-gnu/app/install/uMatriks/RoomList.qml:150
 msgid "Leave"
 msgstr "Abandonar"
 
-#: /opt/develop/privat/mobile/ubports/uMatriks/uMatriks/RoomList.qml:165
-#: /opt/develop/privat/mobile/ubports/uMatriks/build/tmp/uMatriks/RoomList.qml:165
+#: /home/henri2h/Desktop/uMatriks/uMatriks/RoomList.qml:181
+#: /home/henri2h/Desktop/uMatriks/build/x86_64-linux-gnu/app/install/uMatriks/RoomList.qml:181
 msgid "Members of "
 msgstr "Miembros de "
 
-#: /opt/develop/privat/mobile/ubports/uMatriks/uMatriks/RoomList.qml:196
-#: /opt/develop/privat/mobile/ubports/uMatriks/build/tmp/uMatriks/RoomList.qml:196
+#: /home/henri2h/Desktop/uMatriks/uMatriks/RoomList.qml:211
+#: /home/henri2h/Desktop/uMatriks/build/x86_64-linux-gnu/app/install/uMatriks/RoomList.qml:211
 msgid "Room Topic"
 msgstr "Tema de Habitación"
 
-#: /opt/develop/privat/mobile/ubports/uMatriks/uMatriks/RoomView.qml:8
-#: /opt/develop/privat/mobile/ubports/uMatriks/build/tmp/uMatriks/RoomView.qml:8
-msgid "Room"
-msgstr "Habitación"
-
-#: /opt/develop/privat/mobile/ubports/uMatriks/uMatriks/WelcomePage.qml:20
-#: /opt/develop/privat/mobile/ubports/uMatriks/build/tmp/uMatriks/WelcomePage.qml:20
+#: /home/henri2h/Desktop/uMatriks/uMatriks/WelcomePage.qml:35
+#: /home/henri2h/Desktop/uMatriks/build/x86_64-linux-gnu/app/install/uMatriks/WelcomePage.qml:35
 msgid ""
 "Welcome to uMatriks!<br/>            <br/>            uMatriks is a program "
 "that allows you to use the Matrix network."
@@ -173,267 +199,392 @@ msgstr ""
 "Bienvenido a uMatriks!<br/>            <br/>            uMatriks es un "
 "programa que te permite usar la red Matrix."
 
-#: /opt/develop/privat/mobile/ubports/uMatriks/uMatriks/WelcomePage.qml:36
-#: /opt/develop/privat/mobile/ubports/uMatriks/build/tmp/uMatriks/WelcomePage.qml:36
+#: /home/henri2h/Desktop/uMatriks/uMatriks/WelcomePage.qml:51
+#: /home/henri2h/Desktop/uMatriks/build/x86_64-linux-gnu/app/install/uMatriks/WelcomePage.qml:51
 msgid "To use uMatriks, you need to login with your matrix <i>user</i>."
 msgstr ""
 "Para utilizar uMatriks, debe iniciar sesión con su matrix <i>usuario</ i>."
 
-#: /opt/develop/privat/mobile/ubports/uMatriks/uMatriks/WelcomePage.qml:42
-#: /opt/develop/privat/mobile/ubports/uMatriks/build/tmp/uMatriks/WelcomePage.qml:42
+#: /home/henri2h/Desktop/uMatriks/uMatriks/WelcomePage.qml:57
+#: /home/henri2h/Desktop/uMatriks/build/x86_64-linux-gnu/app/install/uMatriks/WelcomePage.qml:57
 msgid "Matrix ID:"
 msgstr "Matrix ID:"
 
 #. TRANSLATORS: Example nickname
-#: /opt/develop/privat/mobile/ubports/uMatriks/uMatriks/WelcomePage.qml:51
-#: /opt/develop/privat/mobile/ubports/uMatriks/build/tmp/uMatriks/WelcomePage.qml:51
+#: /home/henri2h/Desktop/uMatriks/uMatriks/WelcomePage.qml:66
+#: /home/henri2h/Desktop/uMatriks/build/x86_64-linux-gnu/app/install/uMatriks/WelcomePage.qml:66
 msgid "chattyman"
 msgstr "apodo"
 
-#: /opt/develop/privat/mobile/ubports/uMatriks/uMatriks/components/ChatBubble.qml:163
-#: /opt/develop/privat/mobile/ubports/uMatriks/uMatriks/components/DialogDownload.qml:10
-#: /opt/develop/privat/mobile/ubports/uMatriks/build/tmp/uMatriks/components/ChatBubble.qml:163
-#: /opt/develop/privat/mobile/ubports/uMatriks/build/tmp/uMatriks/components/DialogDownload.qml:10
+#: /home/henri2h/Desktop/uMatriks/uMatriks/components/ChatBubble.qml:182
+#: /home/henri2h/Desktop/uMatriks/uMatriks/components/DialogDownload.qml:26
+#: /home/henri2h/Desktop/uMatriks/build/x86_64-linux-gnu/app/install/uMatriks/components/ChatBubble.qml:182
+#: /home/henri2h/Desktop/uMatriks/build/x86_64-linux-gnu/app/install/uMatriks/components/DialogDownload.qml:26
 msgid "Download"
 msgstr ""
 
-#: /opt/develop/privat/mobile/ubports/uMatriks/lib/Matrix/models/messageeventmodel.cpp:201
-#: /opt/develop/privat/mobile/ubports/uMatriks/lib/Matrix/models/messageeventmodel.cpp:400
+#: /home/henri2h/Desktop/uMatriks/lib/Matrix/models/messageeventmodel.cpp:268
+msgid "Today"
+msgstr ""
+
+#: /home/henri2h/Desktop/uMatriks/lib/Matrix/models/messageeventmodel.cpp:270
+msgid "Yesterday"
+msgstr ""
+
+#: /home/henri2h/Desktop/uMatriks/lib/Matrix/models/messageeventmodel.cpp:272
+msgid "The day before yesterday"
+msgstr ""
+
+#: /home/henri2h/Desktop/uMatriks/lib/Matrix/models/messageeventmodel.cpp:413
+#: /home/henri2h/Desktop/uMatriks/lib/Matrix/models/messageeventmodel.cpp:582
 msgid "Redacted"
 msgstr ""
 
-#: /opt/develop/privat/mobile/ubports/uMatriks/lib/Matrix/models/messageeventmodel.cpp:203
-#: /opt/develop/privat/mobile/ubports/uMatriks/lib/Matrix/models/messageeventmodel.cpp:402
+#: /home/henri2h/Desktop/uMatriks/lib/Matrix/models/messageeventmodel.cpp:415
+#: /home/henri2h/Desktop/uMatriks/lib/Matrix/models/messageeventmodel.cpp:583
 #, qt-format
 msgid "Redacted: %1"
 msgstr ""
 
-#: /opt/develop/privat/mobile/ubports/uMatriks/lib/Matrix/models/messageeventmodel.cpp:220
+#: /home/henri2h/Desktop/uMatriks/lib/Matrix/models/messageeventmodel.cpp:431
+#: /home/henri2h/Desktop/uMatriks/lib/Matrix/models/utils.h:52
 msgid "a file"
 msgstr ""
 
-#: /opt/develop/privat/mobile/ubports/uMatriks/lib/Matrix/models/messageeventmodel.cpp:235
+#: /home/henri2h/Desktop/uMatriks/lib/Matrix/models/messageeventmodel.cpp:444
+#: /home/henri2h/Desktop/uMatriks/lib/Matrix/models/utils.h:65
 #, qt-format
 msgid "reinvited %1 to the room"
 msgstr ""
 
-#: /opt/develop/privat/mobile/ubports/uMatriks/lib/Matrix/models/messageeventmodel.cpp:240
+#: /home/henri2h/Desktop/uMatriks/lib/Matrix/models/messageeventmodel.cpp:449
+#: /home/henri2h/Desktop/uMatriks/lib/Matrix/models/utils.h:69
 msgid "joined the room (repeated)"
 msgstr ""
 
-#: /opt/develop/privat/mobile/ubports/uMatriks/lib/Matrix/models/messageeventmodel.cpp:245
+#: /home/henri2h/Desktop/uMatriks/lib/Matrix/models/messageeventmodel.cpp:454
+#: /home/henri2h/Desktop/uMatriks/lib/Matrix/models/utils.h:73
 #, qt-format
 msgid "invited %1 to the room"
 msgstr ""
 
-#: /opt/develop/privat/mobile/ubports/uMatriks/lib/Matrix/models/messageeventmodel.cpp:246
+#: /home/henri2h/Desktop/uMatriks/lib/Matrix/models/messageeventmodel.cpp:455
+#: /home/henri2h/Desktop/uMatriks/lib/Matrix/models/utils.h:75
 #, fuzzy
 msgid "joined the room"
 msgstr "Entrar en habitación"
 
-#: /opt/develop/privat/mobile/ubports/uMatriks/lib/Matrix/models/messageeventmodel.cpp:252
+#: /home/henri2h/Desktop/uMatriks/lib/Matrix/models/messageeventmodel.cpp:461
 msgid "cleared the display name"
 msgstr ""
 
-#: /opt/develop/privat/mobile/ubports/uMatriks/lib/Matrix/models/messageeventmodel.cpp:254
+#: /home/henri2h/Desktop/uMatriks/lib/Matrix/models/messageeventmodel.cpp:463
 #, qt-format
 msgid "changed the display name to %1"
 msgstr ""
 
-#: /opt/develop/privat/mobile/ubports/uMatriks/lib/Matrix/models/messageeventmodel.cpp:262
+#: /home/henri2h/Desktop/uMatriks/lib/Matrix/models/messageeventmodel.cpp:471
+#: /home/henri2h/Desktop/uMatriks/lib/Matrix/models/utils.h:88
 msgid "cleared the avatar"
 msgstr ""
 
-#: /opt/develop/privat/mobile/ubports/uMatriks/lib/Matrix/models/messageeventmodel.cpp:264
+#: /home/henri2h/Desktop/uMatriks/lib/Matrix/models/messageeventmodel.cpp:473
+#: /home/henri2h/Desktop/uMatriks/lib/Matrix/models/utils.h:90
 msgid "updated the avatar"
 msgstr ""
 
-#: /opt/develop/privat/mobile/ubports/uMatriks/lib/Matrix/models/messageeventmodel.cpp:273
+#: /home/henri2h/Desktop/uMatriks/lib/Matrix/models/messageeventmodel.cpp:482
+#: /home/henri2h/Desktop/uMatriks/lib/Matrix/models/utils.h:98
 #, qt-format
 msgid "unbanned %1"
 msgstr ""
 
-#: /opt/develop/privat/mobile/ubports/uMatriks/lib/Matrix/models/messageeventmodel.cpp:275
+#: /home/henri2h/Desktop/uMatriks/lib/Matrix/models/messageeventmodel.cpp:483
+#: /home/henri2h/Desktop/uMatriks/lib/Matrix/models/utils.h:99
 msgid "self-unbanned"
 msgstr ""
 
-#: /opt/develop/privat/mobile/ubports/uMatriks/lib/Matrix/models/messageeventmodel.cpp:278
+#: /home/henri2h/Desktop/uMatriks/lib/Matrix/models/messageeventmodel.cpp:486
 #, qt-format
 msgid "has put %1 out of the room"
 msgstr ""
 
-#: /opt/develop/privat/mobile/ubports/uMatriks/lib/Matrix/models/messageeventmodel.cpp:280
+#: /home/henri2h/Desktop/uMatriks/lib/Matrix/models/messageeventmodel.cpp:487
+#: /home/henri2h/Desktop/uMatriks/lib/Matrix/models/utils.h:104
 msgid "left the room"
 msgstr ""
 
-#: /opt/develop/privat/mobile/ubports/uMatriks/lib/Matrix/models/messageeventmodel.cpp:283
+#: /home/henri2h/Desktop/uMatriks/lib/Matrix/models/messageeventmodel.cpp:490
 #, qt-format
 msgid "banned %1 from the room"
 msgstr ""
 
-#: /opt/develop/privat/mobile/ubports/uMatriks/lib/Matrix/models/messageeventmodel.cpp:285
+#: /home/henri2h/Desktop/uMatriks/lib/Matrix/models/messageeventmodel.cpp:491
 msgid "self-banned from the room"
 msgstr ""
 
-#: /opt/develop/privat/mobile/ubports/uMatriks/lib/Matrix/models/messageeventmodel.cpp:287
-#, qt-format
-msgid "%1 (%2) knocked"
+#: /home/henri2h/Desktop/uMatriks/lib/Matrix/models/messageeventmodel.cpp:493
+#: /home/henri2h/Desktop/uMatriks/lib/Matrix/models/utils.h:111
+msgid "knocked"
 msgstr ""
 
-#: /opt/develop/privat/mobile/ubports/uMatriks/lib/Matrix/models/messageeventmodel.cpp:293
+#: /home/henri2h/Desktop/uMatriks/lib/Matrix/models/messageeventmodel.cpp:497
+#: /home/henri2h/Desktop/uMatriks/lib/Matrix/models/utils.h:114
+msgid "made something unknown"
+msgstr ""
+
+#: /home/henri2h/Desktop/uMatriks/lib/Matrix/models/messageeventmodel.cpp:500
+#: /home/henri2h/Desktop/uMatriks/lib/Matrix/models/utils.h:117
 #, qt-format
 msgid "set aliases to: %1"
 msgstr ""
 
-#: /opt/develop/privat/mobile/ubports/uMatriks/lib/Matrix/models/messageeventmodel.cpp:299
+#: /home/henri2h/Desktop/uMatriks/lib/Matrix/models/messageeventmodel.cpp:504
+#: /home/henri2h/Desktop/uMatriks/lib/Matrix/models/utils.h:121
 msgid "cleared the room main alias"
 msgstr ""
 
-#: /opt/develop/privat/mobile/ubports/uMatriks/lib/Matrix/models/messageeventmodel.cpp:301
+#: /home/henri2h/Desktop/uMatriks/lib/Matrix/models/messageeventmodel.cpp:505
+#: /home/henri2h/Desktop/uMatriks/lib/Matrix/models/utils.h:122
 #, qt-format
 msgid "set the room main alias to: %1"
 msgstr ""
 
-#: /opt/develop/privat/mobile/ubports/uMatriks/lib/Matrix/models/messageeventmodel.cpp:307
+#: /home/henri2h/Desktop/uMatriks/lib/Matrix/models/messageeventmodel.cpp:509
+#: /home/henri2h/Desktop/uMatriks/lib/Matrix/models/utils.h:127
 #, fuzzy
 msgid "cleared the room name"
 msgstr "Entrar en habitación"
 
-#: /opt/develop/privat/mobile/ubports/uMatriks/lib/Matrix/models/messageeventmodel.cpp:309
+#: /home/henri2h/Desktop/uMatriks/lib/Matrix/models/messageeventmodel.cpp:510
+#: /home/henri2h/Desktop/uMatriks/lib/Matrix/models/utils.h:128
 #, qt-format
 msgid "set the room name to: %1"
 msgstr ""
 
-#: /opt/develop/privat/mobile/ubports/uMatriks/lib/Matrix/models/messageeventmodel.cpp:315
+#: /home/henri2h/Desktop/uMatriks/lib/Matrix/models/messageeventmodel.cpp:514
+#: /home/henri2h/Desktop/uMatriks/lib/Matrix/models/utils.h:132
 msgid "cleared the topic"
 msgstr ""
 
-#: /opt/develop/privat/mobile/ubports/uMatriks/lib/Matrix/models/messageeventmodel.cpp:317
+#: /home/henri2h/Desktop/uMatriks/lib/Matrix/models/messageeventmodel.cpp:515
+#: /home/henri2h/Desktop/uMatriks/lib/Matrix/models/utils.h:133
 #, qt-format
 msgid "set the topic to: %1"
 msgstr ""
 
-#: /opt/develop/privat/mobile/ubports/uMatriks/lib/Matrix/models/messageeventmodel.cpp:321
+#: /home/henri2h/Desktop/uMatriks/lib/Matrix/models/messageeventmodel.cpp:518
+#: /home/henri2h/Desktop/uMatriks/lib/Matrix/models/utils.h:136
 msgid "changed the room avatar"
 msgstr ""
 
-#: /opt/develop/privat/mobile/ubports/uMatriks/lib/Matrix/models/messageeventmodel.cpp:325
+#: /home/henri2h/Desktop/uMatriks/lib/Matrix/models/messageeventmodel.cpp:521
+#: /home/henri2h/Desktop/uMatriks/lib/Matrix/models/utils.h:139
 msgid "activated End-to-End Encryption"
 msgstr ""
 
-#: /opt/develop/privat/mobile/ubports/uMatriks/lib/Matrix/models/messageeventmodel.cpp:327
+#: /home/henri2h/Desktop/uMatriks/lib/Matrix/models/messageeventmodel.cpp:523
+#: /home/henri2h/Desktop/uMatriks/lib/Matrix/models/utils.h:141
 msgid "Unknown Event"
 msgstr ""
 
-#: /opt/develop/privat/mobile/ubports/uMatriks/lib/Matrix/models/roomlistmodel.cpp:196
-#, qt-format
-msgid "%1 (as %2)"
-msgstr ""
-
-#: /opt/develop/privat/mobile/ubports/uMatriks/lib/Matrix/libqmatrixclient/lib/connection.cpp:139
+#: /home/henri2h/Desktop/uMatriks/lib/Matrix/libQuotient/lib/connection.cpp:178
 #, qt-format
 msgid "%1 is not a valid homeserver address"
 msgstr ""
 
-#: /opt/develop/privat/mobile/ubports/uMatriks/lib/Matrix/libqmatrixclient/lib/connection.cpp:247
+#: /home/henri2h/Desktop/uMatriks/lib/Matrix/libQuotient/lib/connection.cpp:198
+msgid "Failed resolving the homeserver"
+msgstr ""
+
+#: /home/henri2h/Desktop/uMatriks/lib/Matrix/libQuotient/lib/connection.cpp:205
+msgid "The homeserver base URL is not provided"
+msgstr ""
+
+#: /home/henri2h/Desktop/uMatriks/lib/Matrix/libQuotient/lib/connection.cpp:210
+msgid "The homeserver base URL is invalid"
+msgstr ""
+
+#: /home/henri2h/Desktop/uMatriks/lib/Matrix/libQuotient/lib/connection.cpp:228
+msgid "The homeserver base URL doesn't seem to work"
+msgstr ""
+
+#: /home/henri2h/Desktop/uMatriks/lib/Matrix/libQuotient/lib/connection.cpp:378
 #, qt-format
 msgid "%1 is an invalid homeserver URL"
 msgstr ""
 
-#: /opt/develop/privat/mobile/ubports/uMatriks/lib/Matrix/libqmatrixclient/lib/room.cpp:1667
-#, qt-format
-msgid "Invitation from %1"
+#: /home/henri2h/Desktop/uMatriks/lib/Matrix/libQuotient/lib/room.cpp:1502
+msgid "The call could not be started"
 msgstr ""
 
-#: /opt/develop/privat/mobile/ubports/uMatriks/lib/Matrix/libqmatrixclient/lib/room.cpp:1676
-#, qt-format
-msgid "%1 and %2"
+#: /home/henri2h/Desktop/uMatriks/lib/Matrix/libQuotient/lib/room.cpp:1525
+msgid "File upload will be retried"
 msgstr ""
 
-#: /opt/develop/privat/mobile/ubports/uMatriks/lib/Matrix/libqmatrixclient/lib/room.cpp:1682
-#, qt-format
-msgid "%1 and %L2 others"
+#: /home/henri2h/Desktop/uMatriks/lib/Matrix/libQuotient/lib/room.cpp:1555
+msgid "File upload cancelled"
 msgstr ""
 
-#: /opt/develop/privat/mobile/ubports/uMatriks/lib/Matrix/libqmatrixclient/lib/room.cpp:1712
+#: /home/henri2h/Desktop/uMatriks/lib/Matrix/libQuotient/lib/room.cpp:2682
+#, c-format, qt-plural-format
+msgid "%Ln other(s)"
+msgid_plural "Used to make a room name from user names: A, B and _N others_"
+msgstr[0] ""
+msgstr[1] ""
+
+#: /home/henri2h/Desktop/uMatriks/lib/Matrix/libQuotient/lib/room.cpp:2693
+#, qt-format
+msgid "Empty room (invited: %1)"
+msgstr ""
+
+#: /home/henri2h/Desktop/uMatriks/lib/Matrix/libQuotient/lib/room.cpp:2697
 #, qt-format
 msgid "Empty room (was: %1)"
 msgstr ""
 
-#: /opt/develop/privat/mobile/ubports/uMatriks/lib/Matrix/libqmatrixclient/lib/room.cpp:1715
+#: /home/henri2h/Desktop/uMatriks/lib/Matrix/libQuotient/lib/room.cpp:2700
 #, qt-format
 msgid "Empty room (%1)"
 msgstr ""
 
-#: /opt/develop/privat/mobile/ubports/uMatriks/lib/Matrix/libqmatrixclient/lib/jobs/basejob.cpp:298
-#: /opt/develop/privat/mobile/ubports/uMatriks/lib/Matrix/libqmatrixclient/lib/jobs/basejob.cpp:544
+#: /home/henri2h/Desktop/uMatriks/lib/Matrix/libQuotient/lib/ssosession.cpp:81
+msgid "No login token in SSO callback"
+msgstr ""
+
+#: /home/henri2h/Desktop/uMatriks/lib/Matrix/libQuotient/lib/ssosession.cpp:87
+msgid "Malformed single sign-on callback"
+msgstr ""
+
+#: /home/henri2h/Desktop/uMatriks/lib/Matrix/libQuotient/lib/ssosession.cpp:102
+msgid "Login failed"
+msgstr ""
+
+#: /home/henri2h/Desktop/uMatriks/lib/Matrix/libQuotient/lib/jobs/basejob.cpp:260
+msgid "Invalid server connection"
+msgstr ""
+
+#: /home/henri2h/Desktop/uMatriks/lib/Matrix/libQuotient/lib/jobs/basejob.cpp:315
+#: /home/henri2h/Desktop/uMatriks/lib/Matrix/libQuotient/lib/jobs/basejob.cpp:588
 msgid "Too many requests"
 msgstr ""
 
-#: /opt/develop/privat/mobile/ubports/uMatriks/lib/Matrix/libqmatrixclient/lib/jobs/basejob.cpp:301
+#: /home/henri2h/Desktop/uMatriks/lib/Matrix/libQuotient/lib/jobs/basejob.cpp:318
 #, qt-format
 msgid ", next retry advised after %1 ms"
 msgstr ""
 
-#: /opt/develop/privat/mobile/ubports/uMatriks/lib/Matrix/libqmatrixclient/lib/jobs/basejob.cpp:522
+#: /home/henri2h/Desktop/uMatriks/lib/Matrix/libQuotient/lib/jobs/basejob.cpp:344
+#, qt-format
+msgid "Requested room version: %1"
+msgstr ""
+
+#: /home/henri2h/Desktop/uMatriks/lib/Matrix/libQuotient/lib/jobs/basejob.cpp:349
+msgid "It's not allowed to leave a server notices room"
+msgstr ""
+
+#: /home/henri2h/Desktop/uMatriks/lib/Matrix/libQuotient/lib/jobs/basejob.cpp:352
+msgid "The user has been deactivated"
+msgstr ""
+
+#: /home/henri2h/Desktop/uMatriks/lib/Matrix/libQuotient/lib/jobs/basejob.cpp:555
+#, c-format, qt-plural-format
+msgid "...(truncated, %Ln bytes in total)"
+msgid_plural "Comes after trimmed raw network response"
+msgstr[0] ""
+msgstr[1] ""
+
+#: /home/henri2h/Desktop/uMatriks/lib/Matrix/libQuotient/lib/jobs/basejob.cpp:566
 msgid "Success"
 msgstr ""
 
-#: /opt/develop/privat/mobile/ubports/uMatriks/lib/Matrix/libqmatrixclient/lib/jobs/basejob.cpp:524
+#: /home/henri2h/Desktop/uMatriks/lib/Matrix/libQuotient/lib/jobs/basejob.cpp:568
 msgid "Request still pending response"
 msgstr ""
 
-#: /opt/develop/privat/mobile/ubports/uMatriks/lib/Matrix/libqmatrixclient/lib/jobs/basejob.cpp:526
+#: /home/henri2h/Desktop/uMatriks/lib/Matrix/libQuotient/lib/jobs/basejob.cpp:570
 msgid "Warning: Unexpected response type"
 msgstr ""
 
-#: /opt/develop/privat/mobile/ubports/uMatriks/lib/Matrix/libqmatrixclient/lib/jobs/basejob.cpp:528
+#: /home/henri2h/Desktop/uMatriks/lib/Matrix/libQuotient/lib/jobs/basejob.cpp:572
 msgid "Request was abandoned"
 msgstr ""
 
-#: /opt/develop/privat/mobile/ubports/uMatriks/lib/Matrix/libqmatrixclient/lib/jobs/basejob.cpp:530
+#: /home/henri2h/Desktop/uMatriks/lib/Matrix/libQuotient/lib/jobs/basejob.cpp:574
 msgid "Network problems"
 msgstr ""
 
-#: /opt/develop/privat/mobile/ubports/uMatriks/lib/Matrix/libqmatrixclient/lib/jobs/basejob.cpp:532
-#: /opt/develop/privat/mobile/ubports/uMatriks/lib/Matrix/libqmatrixclient/lib/jobs/basejob.cpp:542
+#: /home/henri2h/Desktop/uMatriks/lib/Matrix/libQuotient/lib/jobs/basejob.cpp:576
+#: /home/henri2h/Desktop/uMatriks/lib/Matrix/libQuotient/lib/jobs/basejob.cpp:586
 msgid "Response could not be parsed"
 msgstr ""
 
-#: /opt/develop/privat/mobile/ubports/uMatriks/lib/Matrix/libqmatrixclient/lib/jobs/basejob.cpp:534
+#: /home/henri2h/Desktop/uMatriks/lib/Matrix/libQuotient/lib/jobs/basejob.cpp:578
 msgid "Request timed out"
 msgstr ""
 
-#: /opt/develop/privat/mobile/ubports/uMatriks/lib/Matrix/libqmatrixclient/lib/jobs/basejob.cpp:536
+#: /home/henri2h/Desktop/uMatriks/lib/Matrix/libQuotient/lib/jobs/basejob.cpp:580
 msgid "Access error"
 msgstr ""
 
-#: /opt/develop/privat/mobile/ubports/uMatriks/lib/Matrix/libqmatrixclient/lib/jobs/basejob.cpp:538
+#: /home/henri2h/Desktop/uMatriks/lib/Matrix/libQuotient/lib/jobs/basejob.cpp:582
 msgid "Not found"
 msgstr ""
 
-#: /opt/develop/privat/mobile/ubports/uMatriks/lib/Matrix/libqmatrixclient/lib/jobs/basejob.cpp:540
+#: /home/henri2h/Desktop/uMatriks/lib/Matrix/libQuotient/lib/jobs/basejob.cpp:584
 msgid "Invalid request"
 msgstr ""
 
-#: /opt/develop/privat/mobile/ubports/uMatriks/lib/Matrix/libqmatrixclient/lib/jobs/basejob.cpp:546
+#: /home/henri2h/Desktop/uMatriks/lib/Matrix/libQuotient/lib/jobs/basejob.cpp:590
 msgid "Function not implemented by the server"
 msgstr ""
 
-#: /opt/develop/privat/mobile/ubports/uMatriks/lib/Matrix/libqmatrixclient/lib/jobs/basejob.cpp:548
+#: /home/henri2h/Desktop/uMatriks/lib/Matrix/libQuotient/lib/jobs/basejob.cpp:592
 msgid "Network authentication required"
 msgstr ""
 
-#: /opt/develop/privat/mobile/ubports/uMatriks/lib/Matrix/libqmatrixclient/lib/jobs/basejob.cpp:550
+#: /home/henri2h/Desktop/uMatriks/lib/Matrix/libQuotient/lib/jobs/basejob.cpp:594
 msgid "User consent required"
 msgstr ""
 
-#: /opt/develop/privat/mobile/ubports/uMatriks/lib/Matrix/libqmatrixclient/lib/jobs/basejob.cpp:552
+#: /home/henri2h/Desktop/uMatriks/lib/Matrix/libQuotient/lib/jobs/basejob.cpp:596
+msgid "The server does not support the needed room version"
+msgstr ""
+
+#: /home/henri2h/Desktop/uMatriks/lib/Matrix/libQuotient/lib/jobs/basejob.cpp:598
 msgid "Request failed"
 msgstr ""
 
-#~ msgid "uMatriks"
-#~ msgstr "uMatriks"
+#: /home/henri2h/Desktop/uMatriks/lib/Matrix/models/utils.h:80
+#, fuzzy
+msgid "cleared their display name"
+msgstr "Entrar en habitación"
+
+#: /home/henri2h/Desktop/uMatriks/lib/Matrix/models/utils.h:82
+#, qt-format
+msgid "changed their display name to %1"
+msgstr ""
+
+#: /home/henri2h/Desktop/uMatriks/lib/Matrix/models/utils.h:102
+#, qt-format
+msgid "has kicked %1 from the room"
+msgstr ""
+
+#: /home/henri2h/Desktop/uMatriks/lib/Matrix/models/utils.h:107
+#, fuzzy, qt-format
+msgid "banned %1 from the room "
+msgstr "Entrar en habitación"
+
+#: /home/henri2h/Desktop/uMatriks/lib/Matrix/models/utils.h:109
+msgid " self-banned from the room "
+msgstr ""
+
+#: /home/henri2h/Desktop/uMatriks/build/x86_64-linux-gnu/app/uMatriks/uMatriks.desktop.h:1
+msgid "uMatriks"
+msgstr "uMatriks"
+
+#~ msgid "Room"
+#~ msgstr "Habitación"
 
 #~ msgid ""
 #~ "This will activate a test function, which lets you see the amount of "
