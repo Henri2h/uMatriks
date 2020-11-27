@@ -19,8 +19,8 @@
 
 #include "imageprovider.h"
 
-#include "libqmatrixclient/lib/connection.h"
-#include "libqmatrixclient/lib/jobs/mediathumbnailjob.h"
+#include "libQuotient/lib/connection.h"
+#include "libQuotient/lib/jobs/mediathumbnailjob.h"
 
 #include <QtCore/QWaitCondition>
 #include <QtCore/QDebug>

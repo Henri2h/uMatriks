@@ -1,3 +1,5 @@
+CONFIG *= silent
+
 TEMPLATE = lib
 TARGET = Matrix
 
@@ -6,7 +8,7 @@ load(ubuntu-click)
 QT += qml quick
 CONFIG += qt plugin
 
-include(libqmatrixclient/libqmatrixclient.pri)
+include(libQuotient/libqmatrixclient.pri)
 
 SOURCES += matrix.cpp \
     models/roomlistmodel.cpp \

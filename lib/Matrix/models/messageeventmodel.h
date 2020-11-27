@@ -19,7 +19,7 @@
 
 #pragma once
 
-#include "libqmatrixclient/lib/room.h"
+#include "libQuotient/lib/room.h"
 
 #include <QtCore/QAbstractListModel>
 

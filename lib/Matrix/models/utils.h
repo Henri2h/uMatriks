@@ -8,10 +8,10 @@
 #include <QRegularExpression>
 #include <QString>
 
-#include <libqmatrixclient/lib/events/redactionevent.h>
-#include <libqmatrixclient/lib/events/roomavatarevent.h>
-#include <libqmatrixclient/lib/events/roommemberevent.h>
-#include <libqmatrixclient/lib/events/simplestateevents.h>
+#include <libQuotient/lib/events/redactionevent.h>
+#include <libQuotient/lib/events/roomavatarevent.h>
+#include <libQuotient/lib/events/roommemberevent.h>
+#include <libQuotient/lib/events/simplestateevents.h>
 
 namespace utils {
 static const QRegularExpression removeReplyRegex{

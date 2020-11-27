@@ -22,13 +22,13 @@
 #include <QtCore/QDebug>
 #include <QtQml> // for qmlRegisterType()
 
-#include "libqmatrixclient/lib/connection.h"
-#include "libqmatrixclient/lib/user.h"
-#include "libqmatrixclient/lib/settings.h"
-#include "libqmatrixclient/lib/events/roommemberevent.h"
-#include "libqmatrixclient/lib/events/simplestateevents.h"
-#include "libqmatrixclient/lib/events/redactionevent.h"
-#include "libqmatrixclient/lib/events/roomavatarevent.h"
+#include "libQuotient/lib/connection.h"
+#include "libQuotient/lib/user.h"
+#include "libQuotient/lib/settings.h"
+#include "libQuotient/lib/events/roommemberevent.h"
+#include "libQuotient/lib/events/simplestateevents.h"
+#include "libQuotient/lib/events/redactionevent.h"
+#include "libQuotient/lib/events/roomavatarevent.h"
 
 enum EventRoles {
     EventTypeRole = Qt::UserRole + 1,
@@ -401,7 +401,6 @@ QVariant MessageEventModel::data(const QModelIndex& idx, int role) const
     const auto pendingIt = m_currentRoom->pendingEvents().crbegin() +
                                 std::min(row, timelineBaseIndex());
     const auto& evt = isPending ? **pendingIt : **timelineIt;
-
     using namespace QMatrixClient;
     if( role == Qt::DisplayRole )
     {
@@ -414,7 +413,7 @@ QVariant MessageEventModel::data(const QModelIndex& idx, int role) const
             return tr("Redacted: %1")
                 .arg(evt.redactedBecause()->reason());
         }
-
+        qDebug() << "Evt : " << evt;
         return visit(evt
             , [this] (const RoomMessageEvent& e) {
                 using namespace MessageEventContent;

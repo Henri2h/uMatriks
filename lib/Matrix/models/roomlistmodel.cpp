@@ -24,10 +24,10 @@
 #include <QtCore/QDebug>
 #include <QtGui/QIcon>
 
-#include "libqmatrixclient/lib/connection.h"
-#include "libqmatrixclient/lib/room.h"
-#include "libqmatrixclient/lib/user.h"
-#include "libqmatrixclient/lib/events/roomevent.h"
+#include "libQuotient/lib/connection.h"
+#include "libQuotient/lib/room.h"
+#include "libQuotient/lib/user.h"
+#include "libQuotient/lib/events/roomevent.h"
 #include "utils.h"
 
 RoomListModel::RoomListModel(QObject* parent)
@@ -206,7 +206,8 @@ QVariant RoomListModel::data(const QModelIndex& index, int role) const
         case UnreadCount:
             return room->unreadCount();
         case LastEvent:
-          if (room->timelineSize() == 0) return "";
+         if (room->timelineSize() == 0) return "No messages";
+
           const QMatrixClient::RoomEvent* lastEvent = room->messageEvents().rbegin()->get();
           return room->user(lastEvent->senderId())->displayname() + ": " +
                  utils::removeReply(utils::eventToString(*lastEvent, room));
